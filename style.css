@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 
@@ -19,7 +20,70 @@ header a{
     font-size: 1.2rem ;
 }
 
-/* body{
-    background-color: rgb(247, 243, 243);
+.parentbody{
+    background-color: rgb(129, 164, 129);
+    height: 100vh;
     
-} */
+}
+
+
+#intro{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-left: 5rem;
+    padding-top: 3rem;
+    padding-bottom: ;
+}
+
+#when{
+    display: flex;
+    gap: 5px;
+}
+#where{
+    display: flex;
+    gap: 5px;
+}
+
+
+.countdown {
+  
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: repeat(3, auto);
+  justify-content: start; /* align whole block to left */
+  row-gap: 2rem;
+  column-gap: 4rem;
+  margin-left: 5rem;
+  color: white;
+}
+
+.days {
+  grid-column: 2 / 3; /* Center above the middle */
+  text-align: center;
+}
+
+#days{
+    font-family: cursive;
+    font-size: 7rem;
+}
+
+.time-units {
+  grid-column: 1 / 4;
+  display: flex;
+  gap: 4rem;
+  justify-content: start;
+}
+
+.time-units > div {
+  text-align: center;
+}
+
+.number {
+  font-size: 3rem;
+}
+
+.label {
+  font-size: 1.5rem;
+}
+

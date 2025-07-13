@@ -33,7 +33,7 @@ header a{
     gap: 1rem;
     padding-left: 5rem;
     padding-top: 3rem;
-    padding-bottom: ;
+    padding-bottom: 1rem;
 }
 
 #when{
@@ -51,7 +51,7 @@ header a{
   display: grid;
   grid-template-rows: auto auto;
   grid-template-columns: repeat(3, auto);
-  justify-content: start; /* align whole block to left */
+  justify-content: start; 
   row-gap: 2rem;
   column-gap: 4rem;
   margin-left: 5rem;
@@ -59,14 +59,15 @@ header a{
 }
 
 .days {
-  grid-column: 2 / 3; /* Center above the middle */
+  grid-column: 2 / 3; 
   text-align: center;
 }
 
-#days{
-    font-family: cursive;
+#days {
     font-size: 7rem;
+    font-weight: 900; /* or bold */
 }
+
 
 .time-units {
   grid-column: 1 / 4;
